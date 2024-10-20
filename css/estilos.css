@@ -1,3 +1,7 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .nav-link{
     color: white !important;
     font-size: large !important;
@@ -5,4 +9,18 @@
 
 p{
     text-align: justify;
+}
+
+@media(max-width: 991px){
+    .img-container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .img-centro{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
 }
