@@ -1,0 +1,360 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../Laboratorio6/css/estilos.css">
+    <title>Cooking w Griss</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold fs-3" href="../Laboratorio6/index.html">
+                <img src="../Laboratorio6/images/cooking.png" width="50" height="44"
+                    class="d-inline-block align-text-top">
+                Cooking w Griss
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                <span class="navbar-toggler-icon" id="#navbarToggler"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="../Laboratorio6/pagina1.html" class="nav-link">Platos Fuertes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Laboratorio6/pagina2.html" class="nav-link">Aperitivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Laboratorio6/pagina3.html" class="nav-link">Postres</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="display-6-bold" id="titulo">──── Aperitivos ────</h1>
+
+    <div class="card mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/buffalo-chicken-dip.jpg" alt="Dip de Pollo con Búfalo"
+                    class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Dip de Pollo con Búfalo</h3>
+                <div class="card-body">
+                    <p class="card-text">Una sabrosa salsa picante hecha con salsa picante, sabroso pollo asado, queso
+                        crema y mayonesa, queso fundido y algunas hierbas frescas. ¡Fácil de hacer y un favorito de las
+                        fiestas!
+                    </p>
+                    <p><b>Porciones: </b>8<br>
+                        <b>Tiempo de preparación: </b>35 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#bufaloModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bufaloModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Dip de Pollo con Búfalo</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>8 oz. de queso crema</li>
+                        <li>1/3 taza de mayonesa</li>
+                        <li>1/4 taza de crema agria</li>
+                        <li>1/2 taza de salsa picante Frank's</li>
+                        <li>1/4 cucharadita de bicarbonato sódico</li>
+                        <li>1 cucharadita de ajo picado (1 diente)</li>
+                        <li>2 1/2 tazas de pechuga de pollo asada picada pequeña (o desmenuzada pequeña)</li>
+                        <li>3/4 taza de queso cheddar rallado, dividido</li>
+                        <li>3/4 taza de queso mozzarella rallado, dividido</li>
+                        <li>1 cucharada de perejil fresco finamente picado, más para decorar</li>
+                        <li>1 cucharada de cebollas de verdeo cortadas en rodajas finas y más para decorar</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precaliente el horno a 350 grados.</li>
+                        <li>Poner el queso crema en un bol grande. Batir con una batidora eléctrica de mano hasta que
+                            quede suave.</li>
+                        <li>Añadir la mayonesa, la crema agria, la salsa picante, el bicarbonato y el ajo y mezclar con
+                            la batidora hasta obtener una mezcla homogénea (no pasa nada si quedan grumos, ya que el
+                            queso crema se derretirá en el horno).</li>
+                        <li>Añadir el pollo, 1/2 taza de queso cheddar, 1/2 taza de mozzarella, el perejil y las
+                            cebollas de verdeo y mezclar hasta que quede uniforme. Sazone con sal si es necesario (tenga
+                            en cuenta que si se sirve con galletas saladas o papas fritas no debería necesitar sal) y
+                            pimienta al gusto.</li>
+                        <li>Vierta la mezcla en un plato hondo para tartas de 9 pulgadas o en otra cazuela de 1,5
+                            cuartos. Extiéndala uniformemente.</li>
+                        <li>Espolvoree por encima uniformemente con el 1/4 de taza de queso cheddar restante y 1/4 de
+                            taza de queso mozzarella.</li>
+                        <li>Hornee en el horno precalentado hasta que esté bien caliente, unos 20 minutos.</li>
+                        <li>Servir caliente con galletas saladas, chips de tortilla, zanahorias, apio o pimiento.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/potato-skins-.jpg" alt="Pieles de Papa Crujientes"
+                    class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Pieles de Papa Crujientes</h3>
+                <div class="card-body">
+                    <p class="card-text">Las papas russet asadas se moldean en forma de barca, se hornean hasta que
+                        están crujientes, se rellenan con queso cheddar y se terminan con tocino, cebollas verdes y
+                        crema agria de hierbas. En otras palabras, con ingredientes así, ¡seguro que estarán deliciosas!
+                    </p>
+                    <p><b>Porciones: </b>6<br>
+                        <b>Tiempo de preparación: </b>1 hr 55 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#papasModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="papasModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Pieles de Papa Crujientes</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>6 papas russet medianas (7 onzas cada una) (2,5 libras en total)</li>
+                        <li>7 laminas de tocino picado (7 oz)</li>
+                        <li>1 1/4 tazas (5 oz) de queso cheddar mediano rallado</li>
+                        <li>1 cucharada de aceite de oliva o aceite vegetal</li>
+                        <li>Sal y pimienta negra recién molida</li>
+                        <li>3 cebollas verdes picadas</li>
+                        <li>3 cucharadas de perejil picado, más para decorar</li>
+                        <li>1 diente de ajo picado (1 cucharadita)</li>
+                        <li>3/4 taza de nata agria</li>
+                        <li>1/4 cucharadita de hojuelas de pimiento rojo, opcional</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precaliente el horno a 400 grados. Forre una bandeja para hornear de 18 por 13 pulgadas con
+                            papel de aluminio. Coloque una rejilla de alambre sobre la bandeja.</li>
+                        <li>Frote y enjuague las papas para eliminar la suciedad y los residuos. Séquelas con toallas
+                            de papel.</li>
+                        <li>Pinche ambos lados de cada papa dos veces con un tenedor. Alinear las papas en la
+                            rejilla de alambre colocada en la bandeja para hornear preparada.</li>
+                        <li>Untar ambos lados de las papas con 1 cucharada de aceite de oliva.</li>
+                        <li>Hornear en el horno precalentado hasta que estén tiernas pero un poco firmes (no blandas),
+                            unos 45 - 55 minutos.</li>
+                        <li>Dejar enfriar las papas unos 15 - 20 minutos hasta que se puedan manipular.</li>
+                        <li>Mientras tanto, cocine el tocino picado en una sartén antiadherente de 12 pulgadas a fuego
+                            medio-alto hasta que esté crujiente. Pasar el bacon a papel absorbente para escurrirlo,
+                            reservando la grasa del bacon en la sartén fuera del fuego (debe haber unas 2 cucharadas).
+                        </li>
+                        <li>Suba la rejilla del horno un nivel desde el centro y aumente la temperatura del horno a 450
+                            grados. Saque la pulpa de las papas, dejando un borde de 1/4 a 1/3 de pulgada de relleno de
+                            la
+                            papa intacta en todos los lados.</li>
+                        <li>Vuelva a colocar las papas en la rejilla del horno sobre la bandeja preparada. Unte ambos
+                            lados de las papas con 1 cucharada de grasa de tocino reservada y sazone ambos lados con
+                            sal y pimienta.</li>
+                        <li>Hornear boca abajo 12 minutos. Retirar del horno, dar la vuelta al lado opuesto (vertical),
+                            pincelar con un poco más de grasa de tocino en la parte superior (aproximadamente 1/2
+                            cucharada, recalentar si es necesario para derretir) y continuar horneando las pieles de
+                            papa unos 8 - 13 minutos más hasta que estén doradas y bastante crujientes.</li>
+                        <li>Mientras tanto, mezcle la nata agria, 3 cucharadas de perejil, el ajo y sazone con un poco
+                            de sal y pimienta al gusto.</li>
+                        <li>Espolvoree las pieles de papa uniformemente con queso (forma de barco hacia arriba) y
+                            copos de pimiento rojo si se utiliza y luego hornee 4 - 5 minutos más hasta que el queso se
+                            derrita y burbujee y las pieles estén crujientes.</li>
+                        <li>Espolvoree las papas con el beicon, las cebollas verdes y añada una cucharada de la mezcla
+                            de crema agria a cada una. Decorar con un poco más de perejil y pimiento rojo si se utiliza.
+                            Sírvalas enseguida.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75" id="poppers">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/jalapeno-poppers.jpg" alt="Jalapeño Poppers" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Jalapeño Poppers</h3>
+                <div class="card-body">
+                    <p class="card-text">¡Horneados y absolutamente deliciosos! Los jalapeños frescos y
+                        picantes se rellenan con un rico relleno de queso y se terminan con crujiente panko sazonado y
+                        sabroso tocino. Después de probarlos creo que estarás de acuerdo en que esta es la mejor manera
+                        de hacerlos.
+                    </p>
+                    <p><b>Porciones: </b>6<br>
+                        <b>Tiempo de preparación: </b>40 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#poppersModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="poppersModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Jalapeño Poppers</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>12 chiles jalapeños medianos (1 lb.), partidos por la mitad</li>
+                        <li>7 oz. de queso crema, ablandado</li>
+                        <li>1 taza (4 oz.) de queso Monterey Jack rallado</li>
+                        <li>6 rebanadas de tocino, cocido y finamente picado, dividido</li>
+                        <li>3 1/2 cucharadas de cebollas de verdeo cortadas en rodajas finas, divididas</li>
+                        <li>2 1/2 cucharadas de cilantro finamente picado</li>
+                        <li>1 cucharadita de ajo picado (1 diente)</li>
+                        <li>Sal y pimienta negra recién molida</li>
+                        <li>1/2 taza de pan rallado panko</li>
+                        <li>1/4 cucharadita (colmada) de chile en polvo</li>
+                        <li>2 cucharaditas de aceite de oliva</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precaliente el horno a 400 grados.</li>
+                        <li>Con guantes de uso alimentario, retire las semillas y las nervaduras de los jalapeños. Puede
+                            hacerlo a mano (el método más rápido), raspando con el pulgar, o con un cuchillo de
+                            emparejar (tenga cuidado de no cortar la parte inferior de los pimientos).</li>
+                        <li>Transfiera los pimientos con el lado cortado hacia arriba a una bandeja para hornear de 18
+                            por 13 pulgadas.</li>
+                        <li>En un tazón mediano, agregue el queso crema, el queso Monterey Jack, 2/3 del tocino (4
+                            rebanadas), 2 1/2 cucharadas de cebollas verdes, cilantro, ajo y sazone con sal y pimienta
+                            al gusto. Remueva con una cuchara hasta que esté bien mezclado.</li>
+                        <li>Con una cuchara, esparza la mezcla en cada mitad de jalapeño, debe quedar ligeramente
+                            colmada.</li>
+                        <li>En un bol pequeño, mezcle con un tenedor el panko, el chile en polvo, la sal al gusto y el
+                            aceite de oliva hasta que la mezcla quede uniforme.</li>
+                        <li>Espolvoree el panko uniformemente sobre cada pimiento.</li>
+                        <li>Hornee en el horno precalentado hasta que los pimientos estén tiernos y el queso derretido,
+                            entre 14 y 18 minutos.</li>
+                        <li>Adorne con las 2 rebanadas restantes de tocino finamente picado y 1 cucharada de cebollas
+                            verdes. Sirva caliente.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/stuffed-mushrooms.jpg" alt="Champiñones Rellenos"
+                    class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Champiñones Rellenos</h3>
+                <div class="card-body">
+                    <p class="card-text">Abundantes champiñones rellenos de rico queso crema, espinacas
+                        tiernas, mozzarella y parmesano derretidos y ajo luego cubiertos con pan rallado panko
+                        crujiente. ¡Una receta de aperitivo o merienda de fiesta que seguramente impresionará!
+                    </p>
+                    <p><b>Porciones: </b>22<br>
+                        <b>Tiempo de preparación: </b>35 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#champModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="champModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Champiñones Rellenos</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>22 champiñones limpios, sin tallos</li>
+                        <li>Aceite de oliva en aerosol para cocinar</li>
+                        <li>1 bolsa (10 - 12 oz.) de espinacas congeladas, descongeladas</li>
+                        <li>8 onzas de queso crema, ablandado</li>
+                        <li>3/4 taza de queso parmesano finamente rallado, cantidad dividida</li>
+                        <li>1/2 taza de queso mozzarella finamente rallado</li>
+                        <li>1 diente de ajo grande, picado (1 1/2 cucharadita)</li>
+                        <li>Sal y pimienta negra recién molida</li>
+                        <li>1/3 taza de pan rallado panko</li>
+                        <li>1 1/2 cucharadita de aceite de oliva</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precaliente el horno a 400 grados. Opcionalmente, puede forrar una bandeja para hornear con
+                            papel de aluminio para facilitar la limpieza.</li>
+                        <li>Exprima la humedad de las espinacas: Coloque las espinacas sobre varias capas de toallas de
+                            papel, extiéndalas un poco, luego doble las toallas de papel y exprima la mayor parte del
+                            exceso de humedad de las espinacas. Colóquelo en un tazón mediano para mezclar.</li>
+                        <li>Mezcle quesos y condimentos: Agregue el queso crema, 1/2 taza de queso parmesano, queso
+                            mozzarella, ajo y sazone con sal y pimienta al gusto. Revuelva la mezcla para mezclar.</li>
+                        <li>Coloque las tapas de los champiñones en una bandeja para hornear y rocíe los lados superior
+                            e inferior con aceite en aerosol antiadherente.</li>
+                        <li>Saque una cucharada a la vez y rellene los champiñones. Colóquelos en una bandeja para
+                            hornear, llenando en posición vertical.</li>
+                        <li>Prepare la cobertura y agréguela a los champiñones: En un tazón pequeño, mezcle el panko, el
+                            1/4 de taza restante de queso parmesano y 1 1/2 cucharadita de aceite de oliva. Espolvoree
+                            sobre cada champiñón.</li>
+                        <li>Hornee en el horno precalentado hasta que el relleno esté caliente, los champiñones se hayan
+                            ablandado y la cobertura esté dorada, aproximadamente de 20 a 24 minutos (si la cobertura no
+                            se doró lo suficiente, puede asar brevemente).</li>
+                        <li>Servir caliente.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../Laboratorio6/javascript/javascript.js"></script>
+</body>
+
+</html>

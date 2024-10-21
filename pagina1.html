@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffa6c1;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand text-white fw-bold fs-3" href="../Laboratorio6/index.html">
                 <img src="../Laboratorio6/images/cooking.png" width="50" height="44"
@@ -38,11 +38,305 @@
         </div>
     </nav>
 
-    
+    <h1 class="display-6-bold" id="titulo">──── Platos Fuertes ────</h1>
+
+    <div class="card mx-auto w-75" id="chilli">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/chili-mac.jpg" alt="Chilli Mac" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Chilli Mac</h3>
+                <div class="card-body">
+                    <p class="card-text">¡Acogedor Chili Mac! Es el clásico chili de res mejorado con pasta de
+                        macarrones y
+                        queso, ¡una mezcla de sabores que no defrauda! Se cocina en una sola olla y es muy fácil de
+                        preparar.
+                    </p>
+                    <p><b>Porciones: </b>6<br>
+                        <b>Tiempo de preparación: </b>45 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#chilliModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="chilliModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Chilli Mac</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>1 cucharada de aceite de oliva</li>
+                        <li>1 1/2 tazas de cebolla amarilla picada</li>
+                        <li>1 taza de pimiento rojo picado</li>
+                        <li>1 libra de carne de res molida</li>
+                        <li>1 cucharada de ajo picado (3 dientes)</li>
+                        <li>4 cucharaditas de chile en polvo</li>
+                        <li>2 cucharaditas de comino molido</li>
+                        <li>1 1/2 cucharadita de pimentón ahumado</li>
+                        <li>1 lata (28 oz) de tomates triturados</li>
+                        <li>1 lata (15 oz) de caldo de pollo bajo en sodio, más 1/2 taza más para diluir si se desea
+                        </li>
+                        <li>1 lata (4 onzas) de chiles verdes picados (suaves o picantes, según prefiera)</li>
+                        <li>8 oz. de macarrones de codo secos (2 tazas)</li>
+                        <li>1 lata (15 oz) de alubias rojas oscuras, escurridas y enjuagadas</li>
+                        <li>Sal y pimienta negra</li>
+                        <li>1/2 taza de mitad y mitad o 1/3 de taza de nata espesa</li>
+                        <li>1 1/2 tazas de queso cheddar afilado rallado</li>
+                        <li>Cebollas de verdeo en rodajas, crema acida, tomates cortados en cubitos o pimienta de cayena
+                            (opcional, para servir)</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Calentar el aceite de oliva en una olla grande a fuego medio-alto.</li>
+                        <li>Añadir la cebolla y el pimiento y saltear 5 minutos. Apartar la mezcla a un lado.</li>
+                        <li>Desmenuzar la carne en trozos, dejar que se chamusque unos 3 minutos y, a continuación,
+                            desmenuzar y mezclar la carne y los pimientos.</li>
+                        <li>Añadir el ajo y cocinar hasta que la carne esté casi cocida, unos 2 minutos.</li>
+                        <li>Añadir el chile en polvo, el comino y el pimentón ahumado y cocinar 1 minuto.</li>
+                        <li>Verter los tomates triturados, el caldo de pollo y los chiles verdes. Incorporar los
+                            macarrones y las alubias rojas. Sazonar con sal y pimienta al gusto.</li>
+                        <li>Dejar que hierva a fuego lento y bajar el fuego. Cocinar sin tapar, removiendo de vez en
+                            cuando, hasta que la pasta esté tierna, entre 12 y 15 minutos.</li>
+                        <li>Fuera del fuego, añadir la mitad y el queso. Añadir más caldo de pollo si lo desea. Servir
+                            con los ingredientes deseados.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/teriyaki-shrimp.jpg" alt="Camarón Teriyaki" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Camarón Teriyaki</h3>
+                <div class="card-body">
+                    <p class="card-text">Un plato asiático rápido hecho con camarones a la sartén y una salsa teriyaki
+                        dulce y sabrosa. ¡Fácil de hacer y digno para la cena!
+                    </p>
+                    <p><b>Porciones: </b>4<br>
+                        <b>Tiempo de preparación: </b>25 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#teriyakiModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teriyakiModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Camarón Teriyaki</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>2 1/2 cucharadas de salsa de soya</li>
+                        <li>3 cucharadas de mirin</li>
+                        <li>3 cucharadas de agua</li>
+                        <li>3 cucharadas de miel</li>
+                        <li>1 cucharada de vinagre de arroz</li>
+                        <li>1/2 cucharadita de aceite de sésamo</li>
+                        <li>1 cucharadita de sriracha</li>
+                        <li>1 1/2 cucharadita de ajo picado</li>
+                        <li>1 1/2 cucharadita de jengibre pelado y picado</li>
+                        <li>2 cucharaditas de maicena</li>
+                        <li>1 1/4 lbs de gambas extra grandes, peladas y desvenadas</li>
+                        <li>1 cucharada de aceite de oliva o vegetal</li>
+                        <li>2 cucharadas de cebollas de verdeo cortadas finas (opcional)</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>En un bol mediano, bata la salsa de soya, el mirin, el agua, la miel, el vinagre de arroz,
+                            el aceite de sésamo, la sriracha, el ajo, el jengibre y la maicena. Bátalo muy bien hasta
+                            que se disuelva la maicena.</li>
+                        <li>Calentar el aceite de oliva en una sartén antiadherente de 12 pulgadas a fuego medio-alto.
+                        </li>
+                        <li>Añada las gambas en una sola capa. Cocine 1 minuto y medio.</li>
+                        <li>Rápidamente voltee los camarones. Cocine 30 segundos.</li>
+                        <li>Bata la salsa una vez más y viértala en la sartén. Cocine y revuelva (sin voltear los
+                            camarones), aproximadamente 1 minuto más hasta que los camarones estén bien cocidos y la
+                            salsa se espese.</li>
+                        <li>Sirva enseguida con cebollas de verdeo opcionales (también puede adornar con semillas de
+                            sésamo si lo desea).</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75" id="pollo">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/polloEspinacas.jpg" alt="Pollo con Espinacas y Alcachofas"
+                    class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Pollo con Espinacas y Alcachofas</h3>
+                <div class="card-body">
+                    <p class="card-text">El pollo cremoso con espinacas y alcachofas es una receta rápida y fácil de
+                        preparar. Con jugoso pollo a la sartén cocinado en salsa rebosante de
+                        alcachofas saladas, espinacas y mucho queso fundente.
+                    </p>
+                    <p><b>Porciones: </b>4<br>
+                        <b>Tiempo de preparación: </b>33 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#polloModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="polloModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Pollo con Espinacas y Alcachofas</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>4 (6 oz) pechugas de pollo deshuesadas y sin piel</li>
+                        <li>Sal y pimienta negra recién molida</li>
+                        <li>1 1/2 cucharadas de aceite de oliva</li>
+                        <li>2 cucharadas de mantequilla</li>
+                        <li>3 dientes de ajo picados</li>
+                        <li>1 cucharada de harina</li>
+                        <li>5 onzas de espinacas frescas, enjuagadas, escurridas y picadas (3 1/2 tazas)</li>
+                        <li>1 lata (14 oz) de cuartos de alcachofa, escurridos y picados</li>
+                        <li>1 1/4 tazas de leche</li>
+                        <li>4 oz de queso Neufchatel, cortado en dados pequeños</li>
+                        <li>1/3 taza de queso parmesano rallado fino</li>
+                        <li>1/4 taza de nata agria</li>
+                        <li>Copos de pimiento rojo (opcional)</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Aplastar el pollo con la parte plana de un mazo para carne hasta conseguir un grosor
+                            uniforme. Sazone ambos lados con sal y pimienta.</li>
+                        <li>Calentar el aceite de oliva en una sartén grande a fuego medio-alto. Añada el pollo y
+                            cocínelo hasta que se dore por debajo, unos 5 ó 6 minutos.</li>
+                        <li>Gire el pollo al lado opuesto y siga cocinando hasta que esté dorado por debajo y el centro
+                            registre 165°F en un termómetro de lectura instantánea, unos 5 minutos más. Ponga el pollo
+                            en un plato y cúbralo con papel de aluminio para mantenerlo caliente.</li>
+                        <li>Derrita la mantequilla en la misma sartén a fuego medio. Añadir el ajo y la harina y cocinar
+                            30 segundos, luego añadir las espinacas y las alcachofas y saltear hasta que las espinacas
+                            se hayan marchitado, aproximadamente 1 minuto.</li>
+                        <li>Vierta la leche, mientras raspa los trocitos dorados del fondo (no se preocupe si no los
+                            saca todos, los trocitos dorados irán apareciendo a medida que se cocine).</li>
+                        <li>Añada el queso Neufchatel y el parmesano, sazone con sal y pimienta al gusto, y cocine y
+                            remueva hasta que la mezcla se haya espesado ligeramente y los quesos se hayan fundido.</li>
+                        <li>Añada la nata agria y vuelva a poner el pollo en la sartén. Espolvorear con las hojuelas de
+                            pimiento rojo.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/ground-turkey-tacos.jpg" alt="Tacos de Pavo Picado" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Tacos de Pavo Picado</h3>
+                <div class="card-body">
+                    <p class="card-text">Incluye un relleno de pavo molido magro sazonado con salsa fresca y muchas
+                        especias, luego se coloca en capas en tortillas calientes y se termina con los mejores
+                        ingredientes clásicos para tacos.
+                    </p>
+                    <p><b>Porciones: </b>4<br>
+                        <b>Tiempo de preparación: </b>30 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#pavoModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pavoModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Tacos de Pavo Picado</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>1 cucharada de aceite de oliva</li>
+                        <li>1 libra de pavo molido magro al 93%, cortado en trozos</li>
+                        <li>Sal y pimienta negra recién molida</li>
+                        <li>1 1/2 cucharadita de ajo picado</li>
+                        <li>1 1/2 cucharadita de chile en polvo</li>
+                        <li>1 1/2 cucharadita de chile ancho en polvo</li>
+                        <li>1 cucharadita de comino molido</li>
+                        <li>1/2 cucharadita de pimentón (ahumado o dulce, opcional)</li>
+                        <li>1 taza de salsa fresca comprada en la tienda o hecha en casa</li>
+                        <li>3 cucharadas de cilantro picado</li>
+                        <li>8 tortillas de maíz (de 6 pulgadas), calentadas (ver notas)</li>
+                        <li>3/4 taza de queso monterey jack o cheddar rallado</li>
+                        <li>2 tomates romanos pequeños (o 1 taza de tomates uva), cortados en cubitos</li>
+                        <li>2 tazas de lechuga romana rallada o lechuga iceberg</li>
+                        <li>Salsa picante</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Calentar el aceite de oliva en una olla grande a fuego medio-alto.</li>
+                        <li>Añadir la cebolla y el pimiento y saltear 5 minutos. Apartar la mezcla a un lado.</li>
+                        <li>Desmenuzar la carne en trozos, dejar que se chamusque unos 3 minutos y, a continuación,
+                            desmenuzar y mezclar la carne y los pimientos.</li>
+                        <li>Añadir el ajo y cocinar hasta que la carne esté casi cocida, unos 2 minutos.</li>
+                        <li>Añadir el chile en polvo, el comino y el pimentón ahumado y cocinar 1 minuto.</li>
+                        <li>Verter los tomates triturados, el caldo de pollo y los chiles verdes. Incorporar los
+                            macarrones y las alubias rojas. Sazonar con sal y pimienta al gusto.</li>
+                        <li>Dejar que hierva a fuego lento y bajar el fuego. Cocinar sin tapar, removiendo de vez en
+                            cuando, hasta que la pasta esté tierna, entre 12 y 15 minutos.</li>
+                        <li>Fuera del fuego, añadir la mitad y el queso. Añadir más caldo de pollo si lo desea. Servir
+                            con los ingredientes deseados.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="../Laboratorio6/javascript/javascript.js"></script>
 </body>
 
 </html>

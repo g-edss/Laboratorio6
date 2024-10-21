@@ -1,5 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
 }
 
 .nav-link{
@@ -7,8 +8,47 @@ body{
     font-size: large !important;
 }
 
+.navbar{
+    background-color: #ffa6c1 !important;
+}
+
+.modal-header{
+    background-color: #ffa6c1 !important;
+}
+
+#links-main{
+    text-decoration: none;
+    color: #f76a94;
+}
+
 p{
     text-align: justify;
+}
+
+.card-body{
+    padding: 25px !important;
+}
+
+#titulo{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.receta li{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#btnStyle{
+    background-color: #f76a94;
+    color: white;
+    font-weight: bold;
+    border-color: #f05d89;
 }
 
 @media(max-width: 991px){
@@ -23,4 +63,10 @@ p{
         max-width: 500px;
         height: auto;
     }
+}
+
+a:is(:link, :active :visited).active{
+    border-radius: 10px;
+    color: white;
+    background-color: #fa779e;
 }

@@ -1,0 +1,365 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../Laboratorio6/css/estilos.css">
+    <title>Cooking w Griss</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold fs-3" href="../Laboratorio6/index.html">
+                <img src="../Laboratorio6/images/cooking.png" width="50" height="44"
+                    class="d-inline-block align-text-top">
+                Cooking w Griss
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                <span class="navbar-toggler-icon" id="#navbarToggler"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="../Laboratorio6/pagina1.html" class="nav-link">Platos Fuertes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Laboratorio6/pagina2.html" class="nav-link">Aperitivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Laboratorio6/pagina3.html" class="nav-link">Postres</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="display-6-bold" id="titulo">──── Postres ────</h1>
+
+    <div class="card mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/Alfajores.jpg" alt="Alfajores" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Alfajores</h3>
+                <div class="card-body">
+                    <p class="card-text">Tiernas galletas tipo sándwich rellenas con una capa de dulce
+                        de leche y comúnmente enrolladas en coco. A menudo las puedes encontrar bañadas en
+                        chocolate.
+                    </p>
+                    <p><b>Porciones: </b>18<br>
+                        <b>Tiempo de preparación: </b>1 hr 50 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#alfajoresModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="alfajoresModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Alfajores</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>1 1/8 tazas (162 g) de maicena</li>
+                        <li>1 taza (128 g) de harina para todo uso</li>
+                        <li>1 cucharadita de polvo para hornear</li>
+                        <li>1/4 cucharadita de sal</li>
+                        <li>10 cucharadas (141 g) de mantequilla blanda</li>
+                        <li>2/3 taza (134 g) de azúcar granulada</li>
+                        <li>3 yemas de huevo grandes</li>
+                        <li>1 1/2 cucharadita de extracto de vainilla</li>
+                        <li>1 taza de Dulce de Leche, enlatado o casero</li>
+                        <li>Coco finamente rallado (opcional)</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>En un tazón, mezcle la harina, la maicena, el polvo para hornear y la sal y reserve.</li>
+                        <li>En el tazón de una batidora eléctrica equipada con el accesorio de paleta, mezcle la
+                            mantequilla y el azúcar a velocidad media hasta que esté cremoso, aproximadamente 30
+                            segundos.</li>
+                        <li>Incorpora las yemas de huevo una a una. Incorpora el extracto de vainilla.</li>
+                        <li>Con la batidora a velocidad baja, agregue lentamente los ingredientes secos y mezcle hasta
+                            que se combinen y la masa comience a unirse.</li>
+                        <li>Forme una bola con la masa, cúbrala con una envoltura de plástico y refrigere de 30 minutos
+                            a 1 hora hasta que sea fácil trabajar con la masa.</li>
+                        <li>Precaliente el horno a 350 grados.</li>
+                        <li>Extienda la mitad de la masa sobre una superficie ligeramente enharinada hasta que tenga un
+                            grosor de aproximadamente 3/16 de pulgada.</li>
+                        <li>Usando un cortador de galletas redondo de 2 pulgadas, corte la masa en círculos y luego,
+                            usando una espátula de metal delgada o un cuchillo alto (como un cuchillo Santoku),
+                            deslícela a lo largo de la parte inferior de la galleta recortada y transfiera a la bandeja
+                            para hornear forrada con papel pergamino o una estera de silicona.</li>
+                        <li>Hornee en el horno precalentado durante 10 a 11 minutos. Deje que las galletas se enfríen
+                            durante 5 minutos en la bandeja para hornear y luego transfiéralas a una rejilla.</li>
+                        <li>Enfríe las galletas por completo, luego extienda una capa de Dulce de Leche sobre la parte
+                            inferior de una galleta y emparéjela con la parte inferior de otra galleta.</li>
+                        <li>Enrolle en coco fino si lo desea. Guarde las galletas en un recipiente hermético (a mí me
+                            gusta guardarlas en el refrigerador).</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75" id="pastel">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/strawberry-cake4.jpg" alt="Pastel de Fresas" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Pastel de Fresas</h3>
+                <div class="card-body">
+                    <p class="card-text">¡La única receta de pastel de fresas frescas que necesitarás! Un pastel de
+                        vainilla esponjoso está cargado de fresas dulces frescas y una rica crema batida de queso crema.
+                    </p>
+                    <p><b>Porciones: </b>12<br>
+                        <b>Tiempo de preparación: </b>4hrs 10 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#pastelModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pastelModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Pastel de Fresas</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>3 tazas (370 g) de harina para pastel</li>
+                        <li>1 cucharada de polvo para hornear</li>
+                        <li>1/2 cucharadita de sal</li>
+                        <li>1 taza (8 oz) de mantequilla sin sal, ablandada</li>
+                        <li>1 3/4 taza (390 g) de azúcar granulada</li>
+                        <li>3 huevos grandes</li>
+                        <li>2 yemas de huevo grandes</li>
+                        <li>1 1/4 tazas de leche (cualquier cosa menos descremada)</li>
+                        <li>2 cucharaditas de extracto de vainilla</li>
+                        <li>3 tazas de crema espesa</li>
+                        <li>1 taza (125 g) de azúcar en polvo, cantidad dividida</li>
+                        <li>8 oz de queso crema, dejado a temperatura ambiente hasta que se ablande parcialmente
+                            (alrededor de 20 a 30 minutos)</li>
+                        <li>1/2 cucharadita de extracto de vainilla</li>
+                        <li>1 1/2 libras de fresas, peladas y cortadas en trozos de un poco menos de 1/2 pulgada</li>
+                        <li>Fresas en rodajas para decorar (opcional)</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precalienta el horno a 350 grados. Unte con mantequilla 3 moldes para pasteles redondos de 9
+                            pulgadas, luego cubra el fondo con una ronda de pergamino, unte con mantequilla el pergamino
+                            y espolvoree ligeramente el molde con harina, sacuda el exceso. Deja las cacerolas a un
+                            lado.</li>
+                        <li>Haga el pastel: tamice la harina para pastel en un tazón mediano. Agregue el polvo para
+                            hornear y la sal y bata durante 20 segundos, reserve.</li>
+                        <li>En el tazón de una batidora eléctrica equipada con el accesorio de paleta, bata la
+                            mantequilla y el azúcar hasta que estén pálidos y esponjosos.</li>
+                        <li>Mezcle los huevos y las yemas de huevo uno a uno, agregando la vainilla con la última yema
+                            de huevo.</li>
+                        <li>Agregue 1/3 de la mezcla de harina a la mezcla de mantequilla y huevo, alternando con 1/2 de
+                            la leche y mezclando a velocidad baja hasta que se combinen después de cada adición. Raspe
+                            los lados y el fondo del tazón y doble suavemente la masa varias veces.</li>
+                        <li>Divida la masa entre los moldes para hornear preparados. Hornee en horno precalentado de 25
+                            a 30 minutos hasta que al insertar un palillo en el centro del pastel, éste salga limpio.
+                        </li>
+                        <li>Deje enfriar en el molde durante unos 5 minutos, pase un cuchillo por los bordes del pastel
+                            para asegurarse de que se aflojen y luego invierta sobre rejillas para que se enfríen por
+                            completo.</li>
+                        <li>Una vez frío, cubra con crema batida de queso crema y fresas. Guarde el pastel en un
+                            recipiente hermético en el refrigerador.</li>
+                        <li>En el tazón de una batidora eléctrica equipada con el accesorio para batir, bata la crema
+                            espesa hasta que se formen picos suaves.</li>
+                        <li>Agregue 1/3 de taza de azúcar en polvo y bata hasta que se formen picos rígidos.</li>
+                        <li>Retire la crema y póngala en un recipiente aparte.</li>
+                        <li>Agregue el queso crema al tazón de la batidora y bata hasta que quede suave y esponjoso.
+                        </li>
+                        <li>Mezcle los 2/3 de taza restantes de azúcar en polvo y vainilla.</li>
+                        <li>Agregue las fresas y mezcle hasta que tengan un color uniforme.</li>
+                        <li>Retire el tazón de la batidora, agregue la crema batida e incorpore la mezcla. Escarcha
+                            sobre pastel enfriado.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/lava-cake.jpg" alt="Lava Cakes de Chocolate" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Lava Cakes de Chocolate</h3>
+                <div class="card-body">
+                    <p class="card-text">¡Estos son el postre definitivo! Los pastelitos de chocolate
+                        se hornean hasta que estén blandos, dejándote con un centro de chocolate fundido
+                        tibio y esponjoso y un rico sabor a brownie.
+                    </p>
+                    <p><b>Porciones: </b>6<br>
+                        <b>Tiempo de preparación: </b>32 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#lavaModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="lavaModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Lava Cakes de Chocolate</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>6 oz de chocolate agridulce, picado</li>
+                        <li>3/4 taza (168 g) de mantequilla sin sal, cortada en trozos de 1 cucharada</li>
+                        <li>1 1/4 tazas (150 g) de azúcar en polvo</li>
+                        <li>1/8 cucharadita de sal</li>
+                        <li>3 huevos grandes</li>
+                        <li>3 yemas de huevo</li>
+                        <li>1 cucharadita de extracto de vainilla</li>
+                        <li>6 1/2 cucharadas (62 g) de harina para todo uso sin blanquear</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precalienta el horno a 425 grados. Unte con mantequilla seis moldes (6 oz) y transfiéralo a
+                            una bandeja para hornear (o unte con mantequilla 6 pocillos de un molde para muffins
+                            gigante). Espolvoree ligeramente con un poco de harina y sacuda el exceso.</li>
+                        <li>En una cacerola mediana, hierva aproximadamente 1 pulgada de agua a fuego medio-alto.
+                            Agregue el chocolate y 3/4 taza de mantequilla a un recipiente de vidrio resistente al
+                            calor. Reduzca el fuego a medio-bajo, coloque el tazón sobre la cacerola y revuelva
+                            constantemente hasta que el chocolate y la mantequilla se derritan. Retire el tazón del
+                            fuego y déjelo reposar de 5 a 10 minutos hasta que se enfríe.</li>
+                        <li>Agregue el azúcar en polvo y la sal hasta que estén bien mezclados (en este punto estará
+                            espeso).</li>
+                        <li>Mezcle los huevos, las yemas de huevo y la vainilla (será necesario revolver un poco para
+                            incorporarlos por completo).</li>
+                        <li>Tamice la harina, luego revuelva y doble la mezcla hasta que se combinen.</li>
+                        <li>Divida la masa entre los moldes para natillas o los moldes para muffins preparados, llenando
+                            cada uno aproximadamente 2/3 de su capacidad (aproximadamente 1/2 taza en cada uno). Si usa
+                            moldes para natillas, transfiéralos a una bandeja para hornear para hornear.</li>
+                        <li>Hornee en horno precalentado hasta que los bordes estén firmes pero el centro aún esté
+                            suave, aproximadamente de 11 a 12 minutos.</li>
+                        <li>Retirar del horno y dejar enfriar de 1 a 2 minutos. Pase un cuchillo por los bordes para
+                            asegurarse de que estén sueltos, luego inviértalo en platos de postre (si usa un molde para
+                            muffins, inviértalo sobre una tabla de cortar o una bandeja para hornear y luego
+                            transfiéralo a platos de postre individuales).</li>
+                        <li>Sirva siempre caliente poco después de hornear. Si lo desea, sírvalo con helado, crema
+                            batida o frambuesas/fresas.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-5 mx-auto w-75">
+        <div class="row">
+            <div class="col-md-4 pe-md-0">
+                <img src="../Laboratorio6/images/mini-cinnamon.jpg" alt="Mini Cinnamon Rolls" class="img-fluid h-100">
+            </div>
+            <div class="col-md-8 ps-md-0">
+                <h3 class="card-header p-3">Mini Cinnamon Rolls</h3>
+                <div class="card-body">
+                    <p class="card-text">¡Comienzan con una masa de rollo de media luna comprada en la tienda para un
+                        bocadillo rápido y fácil que seguramente satisfará esos antojos!
+                    </p>
+                    <p><b>Porciones: </b>16<br>
+                        <b>Tiempo de preparación: </b>25 min
+                    </p>
+                    <button type="button" class="btn btn-modal" id="btnStyle" data-bs-toggle="modal"
+                        data-bs-target="#cinnamonModal">
+                        Ver Receta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cinnamonModal" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white">Mini Cinnamon Rolls</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="mt-2 mb-3">Ingredientes</h5>
+                    <ul class="receta">
+                        <li>1 tubo (8 oz) de masa para panecillos en forma de media luna refrigerada (como Annie's o
+                            Pillsbury)</li>
+                        <li>2 cucharadas de mantequilla sin sal, derretida</li>
+                        <li>2 cucharaditas de canela molida</li>
+                        <li>1/4 taza (sin envasar, 45 g) de azúcar morena</li>
+                        <li>1/2 taza (60 g) de azúcar en polvo</li>
+                        <li>2 - 4 cucharaditas de leche</li>
+                        <li>1/4 cucharadita de extracto de vainilla</li>
+                    </ul>
+                    <h5 class="mt-5 mb-3">Instrucciones</h5>
+                    <ol class="receta">
+                        <li>Precalienta el horno a 350 grados.</li>
+                        <li>Abre la masa del rollo de media luna y desenrolla con cuidado cada pieza. Trabajando con una
+                            pieza a la vez, coloca y junta cuatro triángulos sobre una superficie de trabajo ligeramente
+                            engrasada. Voltea la masa con cuidado y repite en el lado opuesto.</li>
+                        <li>Extiende la masa sellada hasta formar un cuadrado de aproximadamente 7 por 7 pulgadas. Unta
+                            con 1 cucharada de mantequilla. Espolvorea con azúcar moreno y extiende uniformemente.
+                            Espolvorea uniformemente con 1 cucharadita de canela.</li>
+                        <li>Comienza por un extremo y enrolla la masa bastante ajustada hacia el extremo opuesto para
+                            crear una forma de tronco. Corta en porciones.</li>
+                        <li>Transfiere a un molde para mini muffins bien engrasado. Repite el proceso con el resto de la
+                            masa de media luna, la mantequilla, el azúcar moreno y la canela.</li>
+                        <li>Hornea en horno precalentado hasta que esté dorado, aproximadamente de 9 a 11 minutos. Deja
+                            enfriar solo uno o dos minutos, pasa un cuchillo por los bordes mientras aún está caliente y
+                            transfiérelo a una rejilla colocada sobre toallas de papel.</li>
+                        <li>Para el glaseado: en un tazón, mezcla el azúcar en polvo, la leche y el extracto de
+                            vainilla.</li>
+                        <li>Transfiere a una bolsa pequeña con cierre y corta una esquina pequeña o simplemente usa una
+                            cuchara y rocía sobre la parte superior. Es mejor servirlos calientes, pero si te sobran,
+                            guárdalos en un recipiente hermético.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnStyle" class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../Laboratorio6/javascript/javascript.js"></script>
+</body>
+
+</html>
